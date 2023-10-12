@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Recommended IDE Setup
 
-step 1:
+##### step 1:
 ~~~js
 
  yarn create vite HDrouter --template vue
@@ -12,5 +12,21 @@ step 1:
   cd HDrouter
   yarn
   yarn dev
-  
+
+
+
+  yarn add -D sass
+  yarn add vue-router@4
+~~~
+
+
+~~~js
+// 建立基础路由
+
+//模拟数据  安装2个依赖
+yarn add -g json-server
+yarn add -D mockjs
+
+// 通过json-server启动db.js文件
+json-server --watch --port 3030 --host 127.0.0.1 db.js
 ~~~
