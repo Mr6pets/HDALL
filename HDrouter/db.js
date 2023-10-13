@@ -3,6 +3,7 @@ const Random = mock.Random
   
 
 module.export = () => {
+  
   let data = { article: [] }
   for (let i = 0; i < 10 i++) {
     data.article.push({
@@ -12,4 +13,5 @@ module.export = () => {
   }
 
   return data
+
 }
