@@ -1,13 +1,14 @@
-  const mock =require('mockjs');
-const Random = mock.Random
-  
+const Mock = require('mockjs');
 
-module.export = () => {
+const Random = Mock.Random
+  
+module.exports = () => {
 
   let data = { article: [] }
+
   for (let i = 0; i < 10; i++) {
     data.article.push({
-      id: i,
+      id: 1,
       title:Random.cword(10.20)
     })
   }

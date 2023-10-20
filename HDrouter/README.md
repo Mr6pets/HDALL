@@ -27,6 +27,10 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 yarn add -g json-server
 yarn add -D mockjs
 
-// 通过json-server启动db.js文件
+// 通过json-server启动db.js文件(这个命令没有成功)
 json-server --watch --port 3030 --host 127.0.0.1 db.js
+//官方给的文档启动
+json-server --watch db.json
+
+
 ~~~
